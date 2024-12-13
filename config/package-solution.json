@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "budget-estimering-client-side-solution",
+    "id": "51984997-6c5a-4239-84cb-5363d5911784",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "budget-estimering description"
+      },
+      "longDescription": {
+        "default": "budget-estimering description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "budget-estimering Feature",
+        "description": "The feature that activates elements of the budget-estimering solution.",
+        "id": "23c303cc-84a7-4ed7-bc79-8849abb11ff3",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/budget-estimering.sppkg"
+  }
+}

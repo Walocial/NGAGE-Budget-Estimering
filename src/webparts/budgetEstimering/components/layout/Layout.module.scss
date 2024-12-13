@@ -1,0 +1,43 @@
+@import "~@fluentui/react/dist/sass/References.scss";
+
+.data_container {
+  cursor: "pointer";
+  height: 100%;
+  width: 100%;
+  padding: 12px 11px;
+}
+.data_container:hover {
+  background-color: "[theme: neutralLight]";
+}
+div:has(div.data_container) { //Fjerner prædefineret padding på parent element
+  padding: unset;
+}
+
+.infoButton {
+  cursor: pointer;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  padding-inline: 12px;
+  color: "[theme: themePrimary]";
+  transition: 250ms;
+}
+.infoButton:hover {
+  background-color: "[theme: themeSecondary]";
+  color: "[theme: white]";
+}
+
+.navButton {
+  margin-inline-end: 10px;
+  padding-inline: 8px;
+  background-color: "[theme: themeSecondary]";
+  transition: 250ms;
+}
+.navButton > span,
+.navButton > span > i {
+  color: "[theme: white]";
+}
+.navButton:hover > span,
+.navButton:hover > span > i {
+    color:"[theme: themePrimary]";
+}

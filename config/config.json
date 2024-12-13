@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "budget-estimering-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/budgetEstimering/BudgetEstimeringWebPart.js",
+          "manifest": "./src/webparts/budgetEstimering/BudgetEstimeringWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "BudgetEstimeringWebPartStrings": "lib/webparts/budgetEstimering/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}
